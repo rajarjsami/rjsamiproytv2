@@ -1,7 +1,7 @@
 {
   "verbose": true,
   "firefox_profile": "",
-  "headless": false,
+  "headless": true,
   "ollama_base_url": "http://127.0.0.1:11434",
   "ollama_model": "",
   "twitter_language": "English",
@@ -30,7 +30,7 @@
   "assembly_ai_api_key": "",
   "tts_voice": "Jasper",
   "font": "bold_font.ttf",
-  "imagemagick_path": "Path to magick.exe or on linux/macOS just /usr/bin/convert",
+  "imagemagick_path": "/usr/bin/convert",
   "script_sentence_length": 4,
   "post_bridge": {
     "enabled": false,
